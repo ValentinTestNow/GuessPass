@@ -5,9 +5,9 @@ public class RegistroPassword {
     private String cognome;
 
 
-    public void AggiungiUtente(String Nome, String Cognome){
-        setNome(nome);
-        setCognome(cognome);
+    public void AggiungiUtente(String nome, String cognome){
+        setnome(nome);
+        setcognome(cognome);
     }
 
     public String toString(){
@@ -15,16 +15,16 @@ public class RegistroPassword {
     }
 
 
-    public String getNome() {
+    public String getnome() {
         return nome;
     }
-    public void setNome(String nome) {
+    public void setnome(String nome) {
         this.nome = nome;
     }
-    public String getCognome() {
+    public String getcognome() {
         return cognome;
     }
-    public void setCognome(String cognome) {
+    public void setcognome(String cognome) {
         this.cognome = cognome;
     }
 
